@@ -27,14 +27,14 @@
   background-color: var(--light-grey);
 }
 
-.nav {
+.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav__logo {
+.navbar__logo {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -45,7 +45,7 @@
   color: var(--white);
 }
 
-.nav__hamburger:hover {
+.navbar__hamburger:hover {
   cursor: pointer;
 }
 
