@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Meera+Inimai&family=Poppins&family=Roboto&display=swap");
+
+:root {
+    --dark-grey: #3C3A39;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 24px;
+}
+
+/* Nav Section */
+#nav {
+    background-color: var(--dark-grey);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 12px 0;
+    color: var(--white);
+}
+
+.nav__hamburger:hover {
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+}
+
+.hero__heading {
+}
+
+.hero__desc {
+}
+
+.hero__social {
+}
+
+.hero__social--link {
+}
