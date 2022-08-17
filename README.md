@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-#Portfolio
+# Portfolio
 
-###This project is a task by Microverse.
+### This project is a task by Microverse.
 
 > Designed mobile first version.
 
