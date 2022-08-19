@@ -1,23 +1,23 @@
 /* Main padding */
 .container {
-    padding: 0 24px;
+  padding: 0 24px;
 }
 
 /* Buttons */
 .btn {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    padding: 12px;
-    border: none;
-    color: #FFFFFF;
-    background-color: var(--btn-enable);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  border: none;
+  color: #fff;
+  background-color: var(--btn-enable);
 }
 
 .btn:hover {
-    color: var(--btn-enable);
-    background-color: var(--btn-hover);
-    box-shadow:0px 0px 0px 1.5px var(--btn-enable) inset;
+  color: var(--btn-enable);
+  background-color: var(--btn-hover);
+  box-shadow: 0 0 0 1.5px var(--btn-enable) inset;
 }
