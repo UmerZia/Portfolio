@@ -12,15 +12,12 @@
     line-height: 24px;
     padding: 12px;
     border: none;
-}
-
-.btn-enable {
     color: #FFFFFF;
     background-color: var(--btn-enable);
 }
 
-.btn-hover {
+.btn:hover {
     color: var(--btn-enable);
     background-color: var(--btn-hover);
-    border: 2px solid var(--btn-enable);
+    box-shadow:0px 0px 0px 1px var(--btn-enable) inset;
 }

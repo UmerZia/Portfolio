@@ -173,16 +173,27 @@
 }
 
 .mainCard__tech-name {
+    border: solid #8993A4 1px;
+    padding: 10px 12px;
+}
+
+.tech-name {
+    text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     color: var(--dark-font);
-    border: solid #8993A4 1px;
-    padding: 10px 12px;
 }
 
 .mainCard--btn {
     max-width: 124px;
+}
+
+/* Sub Card Grid */
+
+/* Sub Card */
+.work__subCard {
+
 }
