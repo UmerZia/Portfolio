@@ -5,6 +5,7 @@
     <meta charset="UTF-8"/>
     <title>Umer Zia</title>
     <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/utilise.css">
 </head>
 <body>
 <!-- Navigation -->
@@ -58,16 +59,16 @@
 </section>
 
 <!-- My Recent Work -->
-<section id="work">
+<section class="container" id="work">
     <div class="work">
-        <div class="work__heading">
-            <h1>My Recent Works</h1>
-            <div class="line"></div>
+        <div class="work__header">
+            <h1 class="work__title">My Recent Works</h1>
+            <div class="work__underline"></div>
         </div>
         <!-- Main Card -->
         <div class="work__mainCard">
             <div class="work__mainCard--img">
-                <img src="img/cards/main-card.svg" alt="Exercise Poster">
+                <img id="poster" src="img/cards/main-card.svg" alt="Exercise Poster">
             </div>
             <div class="work__mainCard__content">
                 <h2 class="work__mainCard--heading">Multi-Post Stories</h2>
@@ -75,17 +76,58 @@
                     sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown
                     printer took a standard dummy text.</p>
                 <ul class="work__mainCard__tech">
-                    <li class="tech-name">CSS</li>
-                    <li class="tech-name">HTML</li>
-                    <li class="tech-name">Bootstrap</li>
-                    <li class="tech-name">Ruby</li>
+                    <li class="mainCard__tech-name">CSS</li>
+                    <li class="mainCard__tech-name">HTML</li>
+                    <li class="mainCard__tech-name">Bootstrap</li>
+                    <li class="mainCard__tech-name">Ruby</li>
                 </ul>
-                <button class="btn">See Project</button>
+                <button class="mainCard--btn btn btn-enable">See Project</button>
             </div>
         </div>
-        <!-- Sub Card -->
-        <div class="work__subCard">
-
+        <!-- Sub Cards -->
+        <div class="work__grid">
+            <!-- Card -->
+            <div class="work__subCard">
+                <div class="work__subCard__content">
+                    <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
+                    <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
+                        sign-ups required. has been the industry's standard</p>
+                    <ul class="work__subCard__tech">
+                        <li class="subCard__tech-name">HTML</li>
+                        <li class="subCard__tech-name">Bootstrap</li>
+                        <li class="subCard__tech-name">Ruby</li>
+                    </ul>
+                    <button class="btn">See Project</button>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="work__subCard">
+                <div class="work__subCard__content">
+                    <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
+                    <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
+                        sign-ups required. has been the industry's standard</p>
+                    <ul class="work__subCard__tech">
+                        <li class="subCard__tech-name">HTML</li>
+                        <li class="subCard__tech-name">Bootstrap</li>
+                        <li class="subCard__tech-name">Ruby</li>
+                    </ul>
+                    <button class="btn">See Project</button>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="work__subCard">
+                <div class="work__subCard__content">
+                    <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
+                    <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
+                        sign-ups required. has been the industry's standard</p>
+                    <ul class="work__subCard__tech">
+                        <li class="subCard__tech-name">HTML</li>
+                        <li class="subCard__tech-name">Bootstrap</li>
+                        <li class="subCard__tech-name">Ruby</li>
+                    </ul>
+                    <button class="btn">See Project</button>
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -1,0 +1,26 @@
+/* Main padding */
+.container {
+    padding: 0 24px;
+}
+
+/* Buttons */
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 12px;
+    border: none;
+}
+
+.btn-enable {
+    color: #FFFFFF;
+    background-color: var(--btn-enable);
+}
+
+.btn-hover {
+    color: var(--btn-enable);
+    background-color: var(--btn-hover);
+    border: 2px solid var(--btn-enable);
+}
