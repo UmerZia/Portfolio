@@ -6,9 +6,19 @@
 
 > Designed mobile first version.
 
-> Added navigation and hero section.
+> Added Navigation and Hero section.
 
 > Install Linters.
+
+> Add Work section.
+
+> Add About Me Section.
+
+> Apply grid layout.
+
+> Add Contact Us section.
+
+> Add form validation.
 
 ## Language Used
 
