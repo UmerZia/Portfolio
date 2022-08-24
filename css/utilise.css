@@ -40,6 +40,11 @@
   margin-bottom: 128px;
 }
 
+.line-grey {
+  background: #DFE1E6;
+  margin-top: 124px;
+}
+
 /* Shapes */
 #diamond {
   width: 18px;

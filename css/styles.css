@@ -354,3 +354,76 @@
   line-height: 43px;
   color: #fff;
 }
+
+/* Contact Form*/
+#contact-us {
+  background: #fff;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px 0;
+  gap: 70px;
+}
+
+.contact__heading {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 24px;
+  align-items: center;
+}
+
+.form-item {
+  width: 100%;
+}
+
+#name, #email {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 15px 16px;
+  outline: none;
+}
+
+#msg {
+  background: #FBF8F7;
+  border: none;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 16px;
+  outline: none;
+}
+
+#msg::placeholder {
+  color: #3C3A39;
+}
