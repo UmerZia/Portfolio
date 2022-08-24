@@ -427,3 +427,16 @@
 #msg::placeholder {
   color: #3C3A39;
 }
+
+.contact__social-footer {
+  display: flex;
+  padding: 25px 0;
+}
+
+.contact__social-footer__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
