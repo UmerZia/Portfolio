@@ -355,7 +355,7 @@
   color: #fff;
 }
 
-/* Contact Form*/
+/* Contact Form */
 #contact-us {
   background: #fff;
 }
@@ -382,7 +382,7 @@
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .contact__form {
@@ -397,7 +397,8 @@
   width: 100%;
 }
 
-#name, #email {
+#name,
+#email {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -412,7 +413,7 @@
 }
 
 #msg {
-  background: #FBF8F7;
+  background: #fbf8f7;
   border: none;
   width: 100%;
   font-family: 'Inter', sans-serif;
@@ -425,7 +426,7 @@
 }
 
 #msg::placeholder {
-  color: #3C3A39;
+  color: #3c3a39;
 }
 
 .contact__social-footer {
