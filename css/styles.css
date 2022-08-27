@@ -7,6 +7,7 @@
 :root {
   --light-grey: #3c3a39;
   --dark: #1c1a19;
+  --light-dark: #262626;
   --orange: #ff6b00;
   --btn-enable: #f55800;
   --btn-hover: #fff5e1;
@@ -25,6 +26,9 @@
 /* Nav Section */
 #navbar {
   background-color: var(--light-grey);
+  position: fixed;
+  z-index: 999;
+  width: 100vw;
 }
 
 .navbar {
@@ -45,7 +49,11 @@
   color: var(--white);
 }
 
-.navbar__hamburger:hover {
+.navbar__desktop-icon {
+  display: none;
+}
+
+#hamburger:hover {
   cursor: pointer;
 }
 
@@ -102,7 +110,8 @@
 
 /* Work Section */
 #work {
-  padding: 120px 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: #fff;
 }
 
@@ -116,6 +125,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
+  gap: 48px;
 }
 
 .work__title {
@@ -125,7 +136,6 @@
   font-size: 40px;
   line-height: 52px;
   color: #1c1a19;
-  margin-bottom: 40px;
 }
 
 /* Main Card */
@@ -191,10 +201,9 @@
 }
 
 /* Sub Card Grid */
-
 .work__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(327px, 1fr));
   place-items: center;
   grid-gap: 24px 24px;
 }
@@ -203,16 +212,19 @@
 .work__subCard {
   display: flex;
   flex-direction: column;
+  background-image: url(../img/cards/sub-card.svg);
+  max-width: 326px;
+  height: 380px;
+  background-repeat: no-repeat;
 }
 
 .work__subCard__content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-image: url(../img/cards/sub-card.svg);
-  max-width: 327px;
-  background-repeat: no-repeat;
-  padding: 84px 12px 22px 12px;
+  justify-content: flex-end;
+  padding: 84px 12px 0 12px;
+  height: 100%;
 }
 
 .work__subCard--heading {
@@ -239,6 +251,7 @@
   flex-direction: row;
   justify-content: flex-start;
   gap: 12px;
+  padding: 12px 0;
 }
 
 .subCard__tech-name {
@@ -257,7 +270,8 @@
 }
 
 .subCard--btn {
-  max-width: 327px;
+  width: 327px;
+  margin-left: -12px;
 }
 
 /* About Me */
