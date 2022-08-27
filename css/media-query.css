@@ -153,4 +153,24 @@
     width: 60%;
     text-align: left;
   }
+
+  /* Animation */
+  .navbar__logo:hover {
+    transform: scale(1.1);
+    color: var(--orange);
+  }
+
+  .navbar__desktop-icon:hover {
+    color: var(--orange);
+  }
+
+  .hero__social--link img:hover {
+    transform: scale(1.3);
+    filter: invert(57%) sepia(84%) saturate(4485%) hue-rotate(0deg) brightness(103%) contrast(105%);
+  }
+
+  .contact__social-footer__list img:hover {
+    transform: scale(1.3);
+    filter: invert(57%) sepia(84%) saturate(4485%) hue-rotate(0deg) brightness(103%) contrast(105%);
+  }
 }
