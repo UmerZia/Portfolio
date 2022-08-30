@@ -1,269 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta charset="UTF-8"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Umer Zia</title>
-    <link rel="stylesheet" href="css/styles.css"/>
-    <link rel="stylesheet" href="css/utilise.css">
-    <link rel="stylesheet" href="css/media-query.css">
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/utilise.css" />
+    <link rel="stylesheet" href="css/media-query.css" />
+  </head>
 
-<body>
-
-<!-- Navigation -->
-<header class="container" id="navbar">
-    <div class="navbar">
+  <body>
+    <!-- Navigation -->
+    <header class="container" id="navbar">
+      <div class="navbar">
         <a class="navbar__logo" href="#">Umer Zia</a>
         <nav class="navbar__content">
-            <img id="hamburger" src="img/icons/hamburger.svg" alt="hamburger"/>
-            <a class="navbar__desktop-icon" href="#hero">Portfolio</a>
-            <a class="navbar__desktop-icon" href="#about">About</a>
-            <a class="navbar__desktop-icon" href="#contact-us">Contact</a>
-            <a class="navbar__desktop-icon" href="#"><img src="img/icons/inbox.svg" alt=""></a>
+          <a class="navbar__desktop-icon" href="#hero">Portfolio</a>
+          <a class="navbar__desktop-icon" href="#about">About</a>
+          <a class="navbar__desktop-icon" href="#contact-us">Contact</a>
+          <a class="navbar__desktop-icon" href="#"
+            ><img src="img/icons/inbox.svg" alt=""
+          /></a>
+          <img id="hamburger" src="img/icons/hamburger.svg" alt="hamburger" />
         </nav>
-    </div>
-</header>
+      </div>
+    </header>
 
-<!-- Hero -->
-<section id="hero">
-    <div class="container hero">
-        <h1 class="hero__heading">Hey There.<br/>I’m Umer</h1>
+    <!-- Hero -->
+    <section id="hero">
+      <div class="container hero" aria-label="hero section">
+        <h1 class="hero__heading">Hey There.<br />I’m Umer</h1>
         <h2 class="hero__subHead">I’m a Software Developer</h2>
-        <p class="hero__desc">
-            I can help you build a product , feature or website Look through some
-            of my work and experience! If you like what you see and have a project
-            you need coded, don’t hesitate to contact me.
+        <p class="hero__desc" aria-label="hero description">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hesitate to contact me.
         </p>
-        <ul class="hero__social">
-            <li>
-                <a class="hero__social--link" href="#"><img src="img/socials/github.svg" alt="GitHub"/></a>
-            </li>
-            <li>
-                <a class="hero__social--link" href="#"><img src="img/socials/linkedin.svg" alt="Linkedin"/></a>
-            </li>
-            <li>
-                <a class="hero__social--link" href="#"><img src="img/socials/hand-icon.svg" alt="Hand icon"/></a>
-            </li>
-            <li>
-                <a class="hero__social--link" href="#"><img src="img/socials/twitter.svg" alt="Twitter"/></a>
-            </li>
-            <li>
-                <a class="hero__social--link" href="#"><img src="img/socials/m-icon.svg" alt="M icon"/></a>
-            </li>
+        <ul class="hero__social" aria-label="list of social icons">
+          <li aria-label="git hub">
+            <a class="hero__social--link" href="#"
+              ><img src="img/socials/github.svg" alt="GitHub"
+            /></a>
+          </li>
+          <li aria-label="linkedin">
+            <a class="hero__social--link" href="#"
+              ><img src="img/socials/linkedin.svg" alt="Linkedin"
+            /></a>
+          </li>
+          <li aria-label="angel list">
+            <a class="hero__social--link" href="#"
+              ><img src="img/socials/hand-icon.svg" alt="Hand icon"
+            /></a>
+          </li>
+          <li aria-label="twitter">
+            <a class="hero__social--link" href="#"
+              ><img src="img/socials/twitter.svg" alt="Twitter"
+            /></a>
+          </li>
+          <li aria-label="medium">
+            <a class="hero__social--link" href="#"
+              ><img src="img/socials/m-icon.svg" alt="M icon"
+            /></a>
+          </li>
         </ul>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- My Recent Work -->
-<section class="container" id="work">
-    <div class="work">
+    <!-- My Recent Work -->
+    <section class="container" id="work">
+      <div class="work">
         <div class="work__header">
-            <h1 class="work__title">My Recent Works</h1>
-            <div class="line line-black"></div>
+          <h2 class="work__title">My Recent Works</h2>
+          <div class="line line-black"></div>
         </div>
         <!-- Main Card -->
-        <div class="work__mainCard">
-            <img id="poster" src="img/cards/main-card.svg" alt="Exercise Poster">
-            <div class="work__mainCard__content">
-                <h2 class="work__mainCard--heading">Multi-Post Stories</h2>
-                <p class="work__mainCard--desc">A daily selection of privately personalized reads; no accounts or
-                    sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an
-                    unknown
-                    printer took a standard dummy text.</p>
-                <ul class="work__mainCard__tech">
-                    <li class="mainCard__tech-name"><a class="tech-name-black" href="#">CSS</a></li>
-                    <li class="mainCard__tech-name"><a class="tech-name-black" href="#">HTML</a></li>
-                    <li class="mainCard__tech-name"><a class="tech-name-black" href="#">Bootstrap</a></li>
-                    <li class="mainCard__tech-name"><a class="tech-name-black" href="#">Ruby</a></li>
-                </ul>
-                <button class="mainCard--btn btn">See Project</button>
-            </div>
+        <div class="work__mainCard" aria-label="Main Card">
+          <img
+            id="poster"
+            src="img/cards/main-card.svg"
+            alt="Exercise Poster"
+            aria-labelledby="main-card-title"
+          />
+          <div class="work__mainCard__content">
+            <h2 class="work__mainCard--heading" id="main-card-title">
+              Multi-Post Stories
+            </h2>
+            <p class="work__mainCard--desc">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+            <ul class="work__mainCard__tech">
+              <li class="mainCard__tech-name">
+                <a class="tech-name-black" href="#">CSS</a>
+              </li>
+              <li class="mainCard__tech-name">
+                <a class="tech-name-black" href="#">HTML</a>
+              </li>
+              <li class="mainCard__tech-name">
+                <a class="tech-name-black" href="#">Bootstrap</a>
+              </li>
+              <li class="mainCard__tech-name">
+                <a class="tech-name-black" href="#">Ruby</a>
+              </li>
+            </ul>
+            <button class="mainCard--btn btn">See Project</button>
+          </div>
         </div>
         <!-- Sub Cards -->
         <div class="work__grid">
-            <!-- Card -->
-            <div class="work__subCard">
-                <div class="work__subCard__content">
-                    <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
-                    <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard</p>
-                    <ul class="work__subCard__tech">
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">HTML</a></li>
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">Bootstrap</a></li>
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">Ruby</a></li>
-                    </ul>
-                    <button class="subCard--btn btn">See Project</button>
-                </div>
+          <!-- Card -->
+          <div class="work__subCard" aria-label="Card">
+            <div class="work__subCard__content">
+              <h1 class="work__subCard--heading">
+                Professional Art Printing Data
+              </h1>
+              <p class="work__subCard--decs">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work__subCard__tech">
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">HTML</a>
+                </li>
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">Bootstrap</a>
+                </li>
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">Ruby</a>
+                </li>
+              </ul>
+              <button class="subCard--btn btn">See Project</button>
             </div>
-            <!-- Card -->
-            <div class="work__subCard">
-                <div class="work__subCard__content">
-                    <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
-                    <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard</p>
-                    <ul class="work__subCard__tech">
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">HTML</a></li>
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">Bootstrap</a></li>
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">Ruby</a></li>
-                    </ul>
-                <button class="subCard--btn btn">See Project</button>
-                </div>
+          </div>
+          <!-- Card -->
+          <div class="work__subCard" aria-label="Card">
+            <div class="work__subCard__content">
+              <h1 class="work__subCard--heading">
+                Professional Art Printing Data
+              </h1>
+              <p class="work__subCard--decs">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work__subCard__tech">
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">HTML</a>
+                </li>
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">Bootstrap</a>
+                </li>
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">Ruby</a>
+                </li>
+              </ul>
+              <button class="subCard--btn btn">See Project</button>
             </div>
-            <!-- Card -->
-            <div class="work__subCard">
-                <div class="work__subCard__content">
-                    <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
-                    <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard</p>
-                    <ul class="work__subCard__tech">
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">HTML</a></li>
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">Bootstrap</a></li>
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">Ruby</a></li>
-                    </ul>
-                <button class="subCard--btn btn">See Project</button>
-                </div>
+          </div>
+          <!-- Card -->
+          <div class="work__subCard" aria-label="Card">
+            <div class="work__subCard__content">
+              <h2 class="work__subCard--heading">
+                Professional Art Printing Data
+              </h2>
+              <p class="work__subCard--decs">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work__subCard__tech">
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">HTML</a>
+                </li>
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">Bootstrap</a>
+                </li>
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">Ruby</a>
+                </li>
+              </ul>
+              <button class="subCard--btn btn">See Project</button>
             </div>
-            <!-- Card -->
-            <div class="work__subCard">
-                <div class="work__subCard__content">
-                    <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
-                    <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard</p>
-                    <ul class="work__subCard__tech">
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">HTML</a></li>
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">Bootstrap</a></li>
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">Ruby</a></li>
-                    </ul>
-                <button class="subCard--btn btn">See Project</button>
-                </div>
+          </div>
+          <!-- Card -->
+          <div class="work__subCard" aria-label="Card">
+            <div class="work__subCard__content">
+              <h1 class="work__subCard--heading">
+                Professional Art Printing Data
+              </h1>
+              <p class="work__subCard--decs">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work__subCard__tech">
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">HTML</a>
+                </li>
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">Bootstrap</a>
+                </li>
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">Ruby</a>
+                </li>
+              </ul>
+              <button class="subCard--btn btn">See Project</button>
             </div>
-            <!-- Card -->
-            <div class="work__subCard">
-                <div class="work__subCard__content">
-                    <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
-                    <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard</p>
-                    <ul class="work__subCard__tech">
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">HTML</a></li>
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">Bootstrap</a></li>
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">Ruby</a></li>
-                    </ul>
-                <button class="subCard--btn btn">See Project</button>
-                </div>
+          </div>
+          <!-- Card -->
+          <div class="work__subCard" aria-label="Card">
+            <div class="work__subCard__content">
+              <h1 class="work__subCard--heading">
+                Professional Art Printing Data
+              </h1>
+              <p class="work__subCard--decs">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work__subCard__tech">
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">HTML</a>
+                </li>
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">Bootstrap</a>
+                </li>
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">Ruby</a>
+                </li>
+              </ul>
+              <button class="subCard--btn btn">See Project</button>
             </div>
-            <!-- Card -->
-            <div class="work__subCard">
-                <div class="work__subCard__content">
-                    <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
-                    <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard</p>
-                    <ul class="work__subCard__tech">
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">HTML</a></li>
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">Bootstrap</a></li>
-                        <li class="subCard__tech-name"><a class="tech-name-white" href="#">Ruby</a></li>
-                    </ul>
-                <button class="subCard--btn btn">See Project</button>
-                </div>
+          </div>
+          <!-- Card -->
+          <div class="work__subCard" aria-label="Card">
+            <div class="work__subCard__content">
+              <h1 class="work__subCard--heading">
+                Professional Art Printing Data
+              </h1>
+              <p class="work__subCard--decs">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <ul class="work__subCard__tech">
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">HTML</a>
+                </li>
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">Bootstrap</a>
+                </li>
+                <li class="subCard__tech-name">
+                  <a class="tech-name-white" href="#">Ruby</a>
+                </li>
+              </ul>
+              <button class="subCard--btn btn">See Project</button>
             </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- About Me -->
-<section id="about">
-    <div class="about">
-        <div class="about-content container">
-            <h1 class="about-content__heading">
-                About me
-            </h1>
-            <p class="about-content__desc">
-                Hello I’m a software developer! I can help you build a product , feature or website Look through
-                some of
-                my work and experience! If you like what you see and have a project you need coded, don’t hesitate
-                to
-                contact me.
-            </p>
-            <button class="about-content__btn btn">Get My Resume</button>
+    <!-- About Me -->
+    <section id="about">
+      <div class="about" aria-label="About me">
+        <div class="about-content container" aria-label="About me content">
+          <h1 class="about-content__heading">About me</h1>
+          <p class="about-content__desc">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hesitate to contact me.
+          </p>
+          <button class="about-content__btn btn">Get My Resume</button>
         </div>
         <div class="about-tech container">
-            <div class="line line-white"></div>
-            <div class="about-tech__container">
-                <div class="about-tech__content">
-                    <div class="about-tech__content__header">
-                        <div id="diamond"></div>
-                        <div class="about-tech__content--heading">Language</div>
-                    </div>
-                    <ul class="about-tech__content--tech-list">
-                        <li class="about-tech__content--tech-list-item">Javascript</li>
-                        <li class="about-tech__content--tech-list-item">Ruby</li>
-                        <li class="about-tech__content--tech-list-item">Html</li>
-                        <li class="about-tech__content--tech-list-item">Css</li>
-                    </ul>
-                </div>
-                <div class="about-tech__content">
-                    <div class="about-tech__content__header">
-                        <div id="square"></div>
-                        <div class="about-tech__content--heading">Frameworks</div>
-                    </div>
-                    <ul class="about-tech__content--tech-list">
-                        <li class="about-tech__content--tech-list-item">Bootstrap</li>
-                        <li class="about-tech__content--tech-list-item">Ruby on Rails</li>
-                        <li class="about-tech__content--tech-list-item">RSPec</li>
-                        <li class="about-tech__content--tech-list-item">CapyBara</li>
-                    </ul>
-                </div>
-                <div class="about-tech__content">
-                    <div class="about-tech__content__header">
-                        <div id="circle"></div>
-                        <div class="about-tech__content--heading">Skills</div>
-                    </div>
-                    <ul class="about-tech__content--tech-list">
-                        <li class="about-tech__content--tech-list-item">CodeKit</li>
-                        <li class="about-tech__content--tech-list-item">GitHub</li>
-                        <li class="about-tech__content--tech-list-item">Terminal</li>
-                        <li class="about-tech__content--tech-list-item">GitLab</li>
-                    </ul>
-                </div>
+          <div class="line line-white"></div>
+          <div class="about-tech__container">
+            <div class="about-tech__content" aria-label="technologies section">
+              <div class="about-tech__content__header">
+                <div id="diamond"></div>
+                <div class="about-tech__content--heading">Language</div>
+              </div>
+              <ul
+                class="about-tech__content--tech-list"
+                aria-label="technologies list"
+              >
+                <li class="about-tech__content--tech-list-item">Javascript</li>
+                <li class="about-tech__content--tech-list-item">Ruby</li>
+                <li class="about-tech__content--tech-list-item">Html</li>
+                <li class="about-tech__content--tech-list-item">Css</li>
+              </ul>
             </div>
+            <div class="about-tech__content" aria-label="technologies section">
+              <div class="about-tech__content__header">
+                <div id="square"></div>
+                <div class="about-tech__content--heading">Frameworks</div>
+              </div>
+              <ul
+                class="about-tech__content--tech-list"
+                aria-label="list of technologies"
+              >
+                <li class="about-tech__content--tech-list-item">Bootstrap</li>
+                <li class="about-tech__content--tech-list-item">
+                  Ruby on Rails
+                </li>
+                <li class="about-tech__content--tech-list-item">RSPec</li>
+                <li class="about-tech__content--tech-list-item">CapyBara</li>
+              </ul>
+            </div>
+            <div class="about-tech__content" aria-label="technologies section">
+              <div class="about-tech__content__header">
+                <div id="circle"></div>
+                <div class="about-tech__content--heading">Skills</div>
+              </div>
+              <ul
+                class="about-tech__content--tech-list"
+                aria-label="list of technologies"
+              >
+                <li class="about-tech__content--tech-list-item">CodeKit</li>
+                <li class="about-tech__content--tech-list-item">GitHub</li>
+                <li class="about-tech__content--tech-list-item">Terminal</li>
+                <li class="about-tech__content--tech-list-item">GitLab</li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- Submit Form -->
-<footer id="contact-us">
-    <div class="contact-us">
-        <div class="contact">
-            <p class="contact__heading">
-                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-            </p>
-            <form id="form" class="contact__form" action="https://formspree.io/f/xlezygod" method="post">
-                <div class="form__name form-item">
-                    <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required>
-                </div>
-                <div class="form__email form-item">
-                    <input type="email" id="email" name="user_email" placeholder="Email address" required>
-                </div>
-                <div class="form__msg form-item">
-                        <textarea name="user_msg" id="msg" cols="30" rows="10" placeholder="Enter text here"
-                                  maxlength="500" required></textarea>
-                </div>
-                <button class="btn">Get in touch</button>
-            </form>
+    <!-- Submit Form -->
+    <footer id="contact-us">
+      <div class="contact-us" aria-label="contact me">
+        <div class="contact" aria-label="contact description">
+          <h1 class="contact__heading">
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h1>
+          <form
+            id="form"
+            class="contact__form"
+            action="https://formspree.io/f/xlezygod"
+            method="post"
+          >
+            <div class="form__name form-item" aria-label="Full name">
+              <input
+                type="text"
+                id="name"
+                name="user_name"
+                placeholder="Full name"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="form__email form-item" aria-label="Email address">
+              <input
+                type="email"
+                id="email"
+                name="user_email"
+                placeholder="Email address"
+                required
+              />
+            </div>
+            <div class="form__msg form-item" aria-label="Write message">
+              <textarea
+                name="user_msg"
+                id="msg"
+                cols="30"
+                rows="10"
+                placeholder="Enter text here"
+                maxlength="500"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Get in touch</button>
+          </form>
         </div>
         <div class="line line-grey"></div>
         <div class="contact__social-footer">
-            <ul class="contact__social-footer__list">
-                <li><a href="#"><img src="img/socials/github-dark.svg" alt="GitHub"></a></li>
-                <li><a href="#"><img src="img/socials/linkedin-dark.svg" alt="Linkedin"></a></li>
-                <li><a href="#"><img src="img/socials/hand-icon-dark.svg" alt="Hand Icon"></a></li>
-                <li><a href="#"><img src="img/socials/twitter-dark.svg" alt="Twitter"></a></li>
-                <li><a href="#"><img src="img/socials/m-icon-dark.svg" alt="M icon"></a></li>
-            </ul>
+          <ul
+            class="contact__social-footer__list"
+            aria-label="List social links"
+          >
+            <li aria-label="Git hub">
+              <a href="#"
+                ><img src="img/socials/github-dark.svg" alt="GitHub"
+              /></a>
+            </li>
+            <li aria-label="Linkedin">
+              <a href="#"
+                ><img src="img/socials/linkedin-dark.svg" alt="Linkedin"
+              /></a>
+            </li>
+            <li aria-label="Angel list">
+              <a href="#"
+                ><img src="img/socials/hand-icon-dark.svg" alt="Hand Icon"
+              /></a>
+            </li>
+            <li aria-label="Twitter">
+              <a href="#"
+                ><img src="img/socials/twitter-dark.svg" alt="Twitter"
+              /></a>
+            </li>
+            <li aria-label="Medium">
+              <a href="#"
+                ><img src="img/socials/m-icon-dark.svg" alt="M icon"
+              /></a>
+            </li>
+          </ul>
         </div>
-    </div>
-</footer>
-</body>
-
+      </div>
+    </footer>
+  </body>
 </html>
