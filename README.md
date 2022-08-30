@@ -4,6 +4,8 @@
 
 ### This project is a task by Microverse.
 
+#### Milestone completed: 
+
 > Designed mobile first version.
 
 > Added Navigation and Hero section.
@@ -19,6 +21,12 @@
 > Add Contact Us section.
 
 > Add form validation.
+
+> Add animation
+
+> Add media query for screen equal or wider than 768px
+
+> Add aria roles to non semantic tags
 
 ## Language Used
 
@@ -68,6 +76,8 @@ Give a **Star** if you like this project!
 ## Acknowledgments
 
 > Inspired by provided [figma template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=34%3A1278) by Microverse
+
+> #### Contributions: [Kolapo Precious Akinrinlola](https://github.com/LIBERCOSOFT) , [Emmanuel Balikuddembe](https://github.com/Balikuddembe)
 
 ## 📝 License
 
