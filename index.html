@@ -17,39 +17,39 @@
     <div class="navbar">
         <a class="navbar__logo" href="#">Umer Zia</a>
         <nav class="navbar__content">
-            <img id="hamburger" src="img/icons/hamburger.svg" alt="hamburger"/>
             <a class="navbar__desktop-icon" href="#hero">Portfolio</a>
             <a class="navbar__desktop-icon" href="#about">About</a>
             <a class="navbar__desktop-icon" href="#contact-us">Contact</a>
             <a class="navbar__desktop-icon" href="#"><img src="img/icons/inbox.svg" alt=""></a>
+            <img id="hamburger" src="img/icons/hamburger.svg" alt="hamburger"/>
         </nav>
     </div>
 </header>
 
 <!-- Hero -->
 <section id="hero">
-    <div class="container hero">
+    <div class="container hero" role="hero section">
         <h1 class="hero__heading">Hey There.<br/>I’m Umer</h1>
         <h2 class="hero__subHead">I’m a Software Developer</h2>
-        <p class="hero__desc">
+        <p class="hero__desc" role="hero description">
             I can help you build a product , feature or website Look through some
             of my work and experience! If you like what you see and have a project
             you need coded, don’t hesitate to contact me.
         </p>
-        <ul class="hero__social">
-            <li>
+        <ul class="hero__social" role="list of social icons">
+            <li role="git hub">
                 <a class="hero__social--link" href="#"><img src="img/socials/github.svg" alt="GitHub"/></a>
             </li>
-            <li>
+            <li role="linkedin">
                 <a class="hero__social--link" href="#"><img src="img/socials/linkedin.svg" alt="Linkedin"/></a>
             </li>
-            <li>
+            <li role="angel list">
                 <a class="hero__social--link" href="#"><img src="img/socials/hand-icon.svg" alt="Hand icon"/></a>
             </li>
-            <li>
+            <li role="twitter">
                 <a class="hero__social--link" href="#"><img src="img/socials/twitter.svg" alt="Twitter"/></a>
             </li>
-            <li>
+            <li role="medium">
                 <a class="hero__social--link" href="#"><img src="img/socials/m-icon.svg" alt="M icon"/></a>
             </li>
         </ul>
@@ -64,10 +64,10 @@
             <div class="line line-black"></div>
         </div>
         <!-- Main Card -->
-        <div class="work__mainCard">
-            <img id="poster" src="img/cards/main-card.svg" alt="Exercise Poster">
+        <div class="work__mainCard" role="Main Card">
+            <img id="poster" src="img/cards/main-card.svg" alt="Exercise Poster" aria-labelledby="main-card-title">
             <div class="work__mainCard__content">
-                <h2 class="work__mainCard--heading">Multi-Post Stories</h2>
+                <h2 class="work__mainCard--heading" id="main-card-title">Multi-Post Stories</h2>
                 <p class="work__mainCard--desc">A daily selection of privately personalized reads; no accounts or
                     sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an
                     unknown
@@ -84,7 +84,7 @@
         <!-- Sub Cards -->
         <div class="work__grid">
             <!-- Card -->
-            <div class="work__subCard">
+            <div class="work__subCard" role="Card">
                 <div class="work__subCard__content">
                     <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
                     <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
@@ -98,7 +98,7 @@
                 </div>
             </div>
             <!-- Card -->
-            <div class="work__subCard">
+            <div class="work__subCard" role="Card">
                 <div class="work__subCard__content">
                     <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
                     <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
@@ -112,7 +112,7 @@
                 </div>
             </div>
             <!-- Card -->
-            <div class="work__subCard">
+            <div class="work__subCard" role="Card">
                 <div class="work__subCard__content">
                     <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
                     <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
@@ -126,7 +126,7 @@
                 </div>
             </div>
             <!-- Card -->
-            <div class="work__subCard">
+            <div class="work__subCard" role="Card">
                 <div class="work__subCard__content">
                     <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
                     <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
@@ -140,7 +140,7 @@
                 </div>
             </div>
             <!-- Card -->
-            <div class="work__subCard">
+            <div class="work__subCard" role="Card">
                 <div class="work__subCard__content">
                     <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
                     <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
@@ -154,7 +154,7 @@
                 </div>
             </div>
             <!-- Card -->
-            <div class="work__subCard">
+            <div class="work__subCard" role="Card">
                 <div class="work__subCard__content">
                     <h1 class="work__subCard--heading">Professional Art Printing Data</h1>
                     <p class="work__subCard--decs">A daily selection of privately personalized reads; no accounts or
@@ -173,8 +173,8 @@
 
 <!-- About Me -->
 <section id="about">
-    <div class="about">
-        <div class="about-content container">
+    <div class="about" role="About me">
+        <div class="about-content container" role="About me content">
             <h1 class="about-content__heading">
                 About me
             </h1>
@@ -190,36 +190,36 @@
         <div class="about-tech container">
             <div class="line line-white"></div>
             <div class="about-tech__container">
-                <div class="about-tech__content">
+                <div class="about-tech__content" role="Technology section">
                     <div class="about-tech__content__header">
                         <div id="diamond"></div>
                         <div class="about-tech__content--heading">Language</div>
                     </div>
-                    <ul class="about-tech__content--tech-list">
+                    <ul class="about-tech__content--tech-list" role="list of technologies">
                         <li class="about-tech__content--tech-list-item">Javascript</li>
                         <li class="about-tech__content--tech-list-item">Ruby</li>
                         <li class="about-tech__content--tech-list-item">Html</li>
                         <li class="about-tech__content--tech-list-item">Css</li>
                     </ul>
                 </div>
-                <div class="about-tech__content">
+                <div class="about-tech__content" role="Technology section">
                     <div class="about-tech__content__header">
                         <div id="square"></div>
                         <div class="about-tech__content--heading">Frameworks</div>
                     </div>
-                    <ul class="about-tech__content--tech-list">
+                    <ul class="about-tech__content--tech-list" role="list of technologies">
                         <li class="about-tech__content--tech-list-item">Bootstrap</li>
                         <li class="about-tech__content--tech-list-item">Ruby on Rails</li>
                         <li class="about-tech__content--tech-list-item">RSPec</li>
                         <li class="about-tech__content--tech-list-item">CapyBara</li>
                     </ul>
                 </div>
-                <div class="about-tech__content">
+                <div class="about-tech__content" role="Technology section">
                     <div class="about-tech__content__header">
                         <div id="circle"></div>
                         <div class="about-tech__content--heading">Skills</div>
                     </div>
-                    <ul class="about-tech__content--tech-list">
+                    <ul class="about-tech__content--tech-list" role="list of technologies">
                         <li class="about-tech__content--tech-list-item">CodeKit</li>
                         <li class="about-tech__content--tech-list-item">GitHub</li>
                         <li class="about-tech__content--tech-list-item">Terminal</li>
@@ -233,19 +233,19 @@
 
 <!-- Submit Form -->
 <footer id="contact-us">
-    <div class="contact-us">
-        <div class="contact">
-            <p class="contact__heading">
+    <div class="contact-us" role="contact me">
+        <div class="contact" role="contact description">
+            <h1 class="contact__heading">
                 I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-            </p>
+            </h1>
             <form id="form" class="contact__form" action="https://formspree.io/f/xlezygod" method="post">
-                <div class="form__name form-item">
+                <div class="form__name form-item" role="Full name">
                     <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required>
                 </div>
-                <div class="form__email form-item">
+                <div class="form__email form-item" role="Email address">
                     <input type="email" id="email" name="user_email" placeholder="Email address" required>
                 </div>
-                <div class="form__msg form-item">
+                <div class="form__msg form-item" role="Write message">
                         <textarea name="user_msg" id="msg" cols="30" rows="10" placeholder="Enter text here"
                                   maxlength="500" required></textarea>
                 </div>
@@ -254,12 +254,12 @@
         </div>
         <div class="line line-grey"></div>
         <div class="contact__social-footer">
-            <ul class="contact__social-footer__list">
-                <li><a href="#"><img src="img/socials/github-dark.svg" alt="GitHub"></a></li>
-                <li><a href="#"><img src="img/socials/linkedin-dark.svg" alt="Linkedin"></a></li>
-                <li><a href="#"><img src="img/socials/hand-icon-dark.svg" alt="Hand Icon"></a></li>
-                <li><a href="#"><img src="img/socials/twitter-dark.svg" alt="Twitter"></a></li>
-                <li><a href="#"><img src="img/socials/m-icon-dark.svg" alt="M icon"></a></li>
+            <ul class="contact__social-footer__list" role="List social links">
+                <li role="Git hub"><a href="#"><img src="img/socials/github-dark.svg" alt="GitHub"></a></li>
+                <li role="Linkedin"><a href="#"><img src="img/socials/linkedin-dark.svg" alt="Linkedin"></a></li>
+                <li role="Angel list"><a href="#"><img src="img/socials/hand-icon-dark.svg" alt="Hand Icon"></a></li>
+                <li role="Twitter"><a href="#"><img src="img/socials/twitter-dark.svg" alt="Twitter"></a></li>
+                <li role="Medium"><a href="#"><img src="img/socials/m-icon-dark.svg" alt="M icon"></a></li>
             </ul>
         </div>
     </div>
