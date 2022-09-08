@@ -21,10 +21,24 @@
     font-size: 15px;
     line-height: 20px;
     color: #fff;
+    border: none;
+    padding: 0;
   }
 
   #hamburger {
     display: none;
+  }
+
+  #cross-icon {
+    display: none;
+  }
+
+  .navbar__content {
+    position: relative;
+    background: none;
+    width: auto;
+    height: auto;
+    padding: 0;
   }
 
   /* Hero Section */

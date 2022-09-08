@@ -49,13 +49,6 @@
   color: var(--white);
 }
 
-.navbar__desktop-icon {
-  display: none;
-}
-
-#hamburger:hover {
-  cursor: pointer;
-}
 
 /* Hero Section */
 #hero {
