@@ -22,7 +22,9 @@
 
 > Add form validation.
 
-> Add animation
+> Add live link.
+
+> Add animation.
 
 > Add media query for screen equal or wider than 768px
 
