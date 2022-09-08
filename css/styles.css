@@ -49,6 +49,58 @@
   color: var(--white);
 }
 
+/* Hamburger */
+.navbar__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: absolute;
+  z-index: 10000;
+  background-color: var(--light-grey);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  padding: 24px 24px 0;
+}
+
+.navbar__desktop-icon {
+  display: block;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: var(--btn-hover);
+  border-bottom: solid 1px;
+  padding-bottom: 15px;
+  padding-left: 24px;
+}
+
+#hamburger {
+  align-self: flex-end;
+  width: 18px;
+  height: 12px;
+}
+
+#hamburger:hover {
+  cursor: pointer;
+}
+
+#msg-box {
+  display: none;
+}
+
+#msg-box img {
+  display: none;
+}
+
+#cross-icon {
+  width: 14px;
+  height: 14px;
+  align-self: flex-end;
+}
 
 /* Hero Section */
 #hero {
