@@ -4,6 +4,19 @@
   padding-right: 24px;
 }
 
+/* Toggle display */
+.display-non {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-flex {
+  display: flex;
+}
+
 /* Buttons */
 .btn {
   font-family: 'Inter', sans-serif;
@@ -64,3 +77,5 @@
   background: var(--orange);
   border-radius: 150px;
 }
+
+
