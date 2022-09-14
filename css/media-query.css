@@ -38,6 +38,14 @@
     display: none;
   }
 
+  #msg-box {
+    display: block;
+  }
+
+  #msg-box img {
+    display: block;
+  }
+
   /* Hero Section */
   #hero {
     background-image: url(../img/bkg/hero-bkg-desktop.svg);
