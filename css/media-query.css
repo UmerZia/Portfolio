@@ -10,6 +10,11 @@
     display: flex;
     flex-direction: row;
     gap: 32px;
+    position: relative;
+    background: none;
+    width: auto;
+    height: auto;
+    padding: 0;
   }
 
   .navbar__desktop-icon {
@@ -21,10 +26,24 @@
     font-size: 15px;
     line-height: 20px;
     color: #fff;
+    border: none;
+    padding: 0;
   }
 
   #hamburger {
     display: none;
+  }
+
+  #cross-icon {
+    display: none;
+  }
+
+  #msg-box {
+    display: block;
+  }
+
+  #msg-box img {
+    display: block;
   }
 
   /* Hero Section */
