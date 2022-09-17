@@ -217,4 +217,8 @@ submit.addEventListener('submit', (e) => {
   const lowerCaseEmail = document.getElementById('email').value.toLowerCase();
   const error = document.getElementById('error-msg');
   let msg = document.createTextNode("Email should be in lower-case.");
+  if (lowerCaseEmail !== email) {
+    error.append(msg);
+    e.preventDefault();
+  }
 });
