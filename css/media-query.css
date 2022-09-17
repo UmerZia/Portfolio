@@ -38,38 +38,22 @@
     display: none;
   }
 
+  .hero__social--link img:hover {
+    transform: scale(1.3);
+    filter: invert(57%) sepia(84%) saturate(4485%) hue-rotate(0deg) brightness(103%) contrast(105%);
+  }
+
+  .contact__social-footer__list img:hover {
+    transform: scale(1.3);
+    filter: invert(57%) sepia(84%) saturate(4485%) hue-rotate(0deg) brightness(103%) contrast(105%);
+  }
+
   #msg-box {
     display: block;
   }
 
   #msg-box img {
     display: block;
-  }
-
-  /* Popup modal desktop */
-  .popup__body {
-    flex-direction: row;
-    gap: 25px;
-  }
-
-  .popup__body--img img {
-    max-width: none;
-    width: 33vw;
-    padding-bottom: 0;
-  }
-
-  .popup__body--content {
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .popup__body--content p {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #344563;
   }
 
   /* Hero Section */
@@ -207,15 +191,5 @@
 
   .navbar__desktop-icon:hover {
     color: var(--orange);
-  }
-
-  .hero__social--link img:hover {
-    transform: scale(1.3);
-    filter: invert(57%) sepia(84%) saturate(4485%) hue-rotate(0deg) brightness(103%) contrast(105%);
-  }
-
-  .contact__social-footer__list img:hover {
-    transform: scale(1.3);
-    filter: invert(57%) sepia(84%) saturate(4485%) hue-rotate(0deg) brightness(103%) contrast(105%);
   }
 }
