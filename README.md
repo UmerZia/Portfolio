@@ -36,13 +36,20 @@
 
 > Add email validation.
 
+> Save data and render data from local storage
+
 ## Language Used
 
 - HTML
 - CSS
+- JS
 
 ## Live Demo
 > [Click here for live preview](https://umerzia.github.io/Portfolio/)
+
+## Website Preview
+
+<img src="img/bkg/web-mock.jpg" width=100% alt="website-preview">
 
 ## Getting Started
 
@@ -79,13 +86,15 @@ Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a **Star** if you like this project!
+Give a ⭐ if you like this project!
 
 ## Acknowledgments
 
 > Inspired by provided [figma template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=34%3A1278) by Microverse
 
-> #### Contributions: [Kolapo Precious Akinrinlola](https://github.com/LIBERCOSOFT) , [Emmanuel Balikuddembe](https://github.com/Balikuddembe)
+> Website favicon is designed by [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Utah_Utes_-_U_logo.svg)
+
+> #### Contributions: [Kolapo Precious Akinrinlola](https://github.com/LIBERCOSOFT) , [Emmanuel Balikuddembe](https://github.com/Balikuddembe) , [Rashid Menhas](https://github.com/RashidMenhas) , [shinyenyi](https://github.com/shinyenyi/myPortfolio)
 
 ## 📝 License
 

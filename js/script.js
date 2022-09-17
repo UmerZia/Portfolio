@@ -222,3 +222,43 @@ submit.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
+
+// Local Storage
+const email = document.getElementById('email');
+const username = document.getElementById('name');
+const userMsg = document.getElementById('msg');
+
+let formData = {
+  email: '',
+  username: '',
+  userMsg: '',
+};
+
+email.addEventListener('input', () => {
+  formData.email = email.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+username.addEventListener('input', () => {
+  formData.username = username.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+userMsg.addEventListener('input', () => {
+  formData.userMsg = userMsg.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+// Render the data from local storage
+window.addEventListener('DOMContentLoaded', () => {
+  formData = JSON.parse(localStorage.getItem('formData') || '{}');
+  if (formData.email) {
+    document.getElementById('email').value = formData.email;
+  }
+  if (formData.username) {
+    document.getElementById('name').value = formData.username;
+  }
+  if (formData.userMsg) {
+    document.getElementById('msg').value = formData.userMsg;
+  }
+});
