@@ -26,13 +26,15 @@
 
 > Add animation.
 
-> Add media query for screen equal or wider than 768px
+> Add media query for screen equal or wider than 768px.
 
-> Add aria roles to non semantic tags
+> Add aria roles to non semantic tags.
 
-> Add dynamic modal in work section
+> Add dynamic modal in work section.
 
-> Created whole card section dynamically
+> Created whole card section dynamically.
+
+> Add email validation.
 
 ## Language Used
 
