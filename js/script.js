@@ -222,3 +222,29 @@ submit.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
+
+//Local Storage
+const email = document.getElementById('email');
+const username = document.getElementById('name');
+const userMsg = document.getElementById('msg');
+
+let formData = {
+  email: '',
+  username: '',
+  userMsg: '',
+};
+
+email.addEventListener('input', () => {
+  formData.email = email.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+username.addEventListener('input', () => {
+  formData.username = username.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+userMsg.addEventListener('input', () => {
+  formData.userMsg = userMsg.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
