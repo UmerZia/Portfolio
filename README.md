@@ -92,6 +92,8 @@ Give a **Star** if you like this project!
 
 > Inspired by provided [figma template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=34%3A1278) by Microverse
 
+> Website favicon is designed by [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Utah_Utes_-_U_logo.svg)
+
 > #### Contributions: [Kolapo Precious Akinrinlola](https://github.com/LIBERCOSOFT) , [Emmanuel Balikuddembe](https://github.com/Balikuddembe) , [Rashid Menhas](https://github.com/RashidMenhas)
 
 ## 📝 License
