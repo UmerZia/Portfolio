@@ -45,6 +45,7 @@ let projects = {
             popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
             tech: ['HTML', 'BootStrap', 'Ruby'],
+            img: '../img/cards/popUpp-img.svg',
             live: '#',
             source: '#',
         },
@@ -55,6 +56,7 @@ let projects = {
             popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
             tech: ['HTML', 'BootStrap', 'Ruby'],
+            img: '../img/cards/popUpp-img.svg',
             live: '#',
             source: '#',
         },
@@ -65,6 +67,7 @@ let projects = {
             popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
             tech: ['HTML', 'BootStrap', 'Ruby'],
+            img: '../img/cards/popUpp-img.svg',
             live: '#',
             source: '#',
         },
@@ -75,6 +78,7 @@ let projects = {
             popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
             tech: ['HTML', 'BootStrap', 'Ruby'],
+            img: '../img/cards/popUpp-img.svg',
             live: '#',
             source: '#',
         },
@@ -85,6 +89,7 @@ let projects = {
             popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
             tech: ['HTML', 'BootStrap', 'Ruby'],
+            img: '../img/cards/popUpp-img.svg',
             live: '#',
             source: '#',
         },
@@ -95,6 +100,7 @@ let projects = {
             popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
             tech: ['HTML', 'BootStrap', 'Ruby'],
+            img: '../img/cards/popUpp-img.svg',
             live: '#',
             source: '#',
         },
@@ -153,3 +159,37 @@ projects.subCards.forEach(card => {
 })
 cardSection += `</div>`
 document.getElementById("work__main").insertAdjacentHTML("afterbegin", cardSection);
+
+//Dynamic Modal
+const modal = [];
+const seeProjectBtn = document.getElementsByClassName('subCard--btn');
+[...seeProjectBtn].forEach((seeProject, index) => {
+    modal[index] = `<section class="popup__section">
+  <div class="popup">
+    <div class="popup__head">
+      <div class="popup__head__title">
+        <p>${projects.subCards[index].name}</p>
+        <img class="popup__head--cross" src="../img/icons/cross-icon.svg" alt="Close" />
+      </div>
+      <div class="popup__head__techs">
+        <ul class="popup__head__techs--list">
+          <li class="popup__head__techs--listItems">${projects.subCards[index].tech[0]}</li>
+          <li class="popup__head__techs--listItems">${projects.subCards[index].tech[1]}</li>
+          <li class="popup__head__techs--listItems">${projects.subCards[index].tech[2]}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="popup__body">
+      <div class="popup__body--img"><img src=${projects.subCards[index].img}></div>
+      <div class="popup__body--content">
+        <p>${projects.subCards[index].popUp_desc}</p>
+        <div class="popup__body__btn">
+          <button class="btn popup__body--btn"><a href="${projects.subCards[index].live}">See Live</a><img src="images/Icon-see-live.svg" alt="Live"></button>
+          <button class="btn popup__body--btn"><a href="${projects.subCards[index].live}">See Source</a></Source><img src="images/GitHub_White.svg" alt="GitHub"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>`;
+});
+

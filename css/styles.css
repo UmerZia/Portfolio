@@ -100,6 +100,121 @@
   align-self: flex-end;
 }
 
+/* Pop-up Modal */
+.popup__section {
+  display: block;
+  background: #fff;
+  padding: 32px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  height: 80vh;
+  z-index: 10;
+  overflow-y: scroll;
+}
+
+.popup__head {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup__head__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding-bottom: 60px;
+}
+
+.popup__head__title p {
+  width: 90%;
+}
+
+.popup__head__techs {
+  padding-bottom: 24px;
+}
+
+.popup__head__techs--list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.popup__head__techs--listItems {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+}
+
+.popup__head--cross:hover {
+  cursor: pointer;
+}
+
+.popup__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup__body--content {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup__body--img img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 24px;
+}
+
+.popup__body--content p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding-bottom: 16px;
+}
+
+.popup__body__btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+  align-items: center;
+}
+
+.popup__body--btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.popup__body--btn a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
 /* Hero Section */
 #hero {
   background-color: var(--dark);
