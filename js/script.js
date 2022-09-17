@@ -223,7 +223,7 @@ submit.addEventListener('submit', (e) => {
   }
 });
 
-//Local Storage
+// Local Storage
 const email = document.getElementById('email');
 const username = document.getElementById('name');
 const userMsg = document.getElementById('msg');

@@ -86,7 +86,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a **Star** if you like this project!
+Give a ⭐ if you like this project!
 
 ## Acknowledgments
 
@@ -94,7 +94,7 @@ Give a **Star** if you like this project!
 
 > Website favicon is designed by [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Utah_Utes_-_U_logo.svg)
 
-> #### Contributions: [Kolapo Precious Akinrinlola](https://github.com/LIBERCOSOFT) , [Emmanuel Balikuddembe](https://github.com/Balikuddembe) , [Rashid Menhas](https://github.com/RashidMenhas)
+> #### Contributions: [Kolapo Precious Akinrinlola](https://github.com/LIBERCOSOFT) , [Emmanuel Balikuddembe](https://github.com/Balikuddembe) , [Rashid Menhas](https://github.com/RashidMenhas) , [shinyenyi](https://github.com/shinyenyi/myPortfolio)
 
 ## 📝 License
 
