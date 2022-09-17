@@ -45,7 +45,7 @@ let projects = {
             popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
             tech: ['HTML', 'BootStrap', 'Ruby'],
-            img: '../img/cards/popUpp-img.svg',
+            img: '../img/cards/popUp-img.png',
             live: '#',
             source: '#',
         },
@@ -56,7 +56,7 @@ let projects = {
             popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
             tech: ['HTML', 'BootStrap', 'Ruby'],
-            img: '../img/cards/popUpp-img.svg',
+            img: '../img/cards/popUp-img.png',
             live: '#',
             source: '#',
         },
@@ -67,7 +67,7 @@ let projects = {
             popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
             tech: ['HTML', 'BootStrap', 'Ruby'],
-            img: '../img/cards/popUpp-img.svg',
+            img: '../img/cards/popUp-img.png',
             live: '#',
             source: '#',
         },
@@ -78,7 +78,7 @@ let projects = {
             popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
             tech: ['HTML', 'BootStrap', 'Ruby'],
-            img: '../img/cards/popUpp-img.svg',
+            img: '../img/cards/popUp-img.png',
             live: '#',
             source: '#',
         },
@@ -89,7 +89,7 @@ let projects = {
             popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
             tech: ['HTML', 'BootStrap', 'Ruby'],
-            img: '../img/cards/popUpp-img.svg',
+            img: '../img/cards/popUp-img.png',
             live: '#',
             source: '#',
         },
@@ -100,7 +100,7 @@ let projects = {
             popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
             tech: ['HTML', 'BootStrap', 'Ruby'],
-            img: '../img/cards/popUpp-img.svg',
+            img: '../img/cards/popUp-img.png',
             live: '#',
             source: '#',
         },
@@ -126,7 +126,7 @@ cardSection += `
     projects.mainCard.tech.forEach(x => {
         cardSection += `
         <li class="mainCard__tech-name">
-            <a class="tech-name-black" href="#">${projects.mainCard.tech}</a>
+            <a class="tech-name-black" href="#">${x}</a>
           </li>`
     })
         cardSection += `</ul>
@@ -180,12 +180,12 @@ const seeProjectBtn = document.getElementsByClassName('subCard--btn');
       </div>
     </div>
     <div class="popup__body">
-      <div class="popup__body--img"><img src=${projects.subCards[index].img}></div>
+      <div class="popup__body--img"><img class="popup__body--img" src=${projects.subCards[index].img}></div>
       <div class="popup__body--content">
         <p>${projects.subCards[index].popUp_desc}</p>
         <div class="popup__body__btn">
-          <button class="btn popup__body--btn"><a href="${projects.subCards[index].live}">See Live</a><img src="images/Icon-see-live.svg" alt="Live"></button>
-          <button class="btn popup__body--btn"><a href="${projects.subCards[index].live}">See Source</a></Source><img src="images/GitHub_White.svg" alt="GitHub"></button>
+          <button class="btn popup__body--btn"><a href="${projects.subCards[index].live}">See Live</a><img src="../img/icons/icon-see-live.svg" alt="Live"></button>
+          <button class="btn popup__body--btn"><a href="${projects.subCards[index].live}">See Source</a></Source><img src="../img/socials/github-white.svg" alt="GitHub"></button>
         </div>
       </div>
     </div>
@@ -193,3 +193,19 @@ const seeProjectBtn = document.getElementsByClassName('subCard--btn');
 </section>`;
 });
 
+//Modal Functionality
+[...seeProjectBtn].forEach((project, index) => {
+    project.addEventListener('click', () => {
+        document.body.insertAdjacentHTML('afterbegin', modal[index]);
+        document.getElementsByClassName('popup__head--cross')[0].addEventListener('click', () => {
+                document.getElementsByClassName('popup__section')[0].remove();
+            });
+    });
+});
+
+document.getElementsByClassName('mainCard--btn')[0].addEventListener('click', () => {
+        document.body.insertAdjacentHTML('afterbegin', modal[0]);
+        document.getElementsByClassName('popup__head--cross')[0].addEventListener('click', () => {
+                document.getElementsByClassName('popup__section')[0].remove();
+        });
+});

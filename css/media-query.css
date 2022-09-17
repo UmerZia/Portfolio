@@ -46,6 +46,32 @@
     display: block;
   }
 
+  /* Popup modal desktop */
+  .popup__body {
+    flex-direction: row;
+    gap: 25px;
+  }
+
+  .popup__body--img img {
+    max-width: none;
+    width: 33vw;
+    padding-bottom: 0;
+  }
+
+  .popup__body--content {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .popup__body--content p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
+
   /* Hero Section */
   #hero {
     background-image: url(../img/bkg/hero-bkg-desktop.svg);
