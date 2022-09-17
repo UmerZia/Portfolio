@@ -34,8 +34,8 @@ const projects = {
     popUp_desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     img: 'img/cards/main-card.svg',
     tech: ['css', 'html', 'bootstrap', 'Ruby'],
-    live: '#',
-    source: '#',
+    live: 'https://umerzia.github.io/Portfolio/',
+    source: 'https://github.com/UmerZia/Portfolio',
   },
   subCards: [
     {
@@ -46,8 +46,8 @@ const projects = {
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
       tech: ['HTML', 'BootStrap', 'Ruby'],
       img: '../img/cards/popUp-img.png',
-      live: '#',
-      source: '#',
+      live: 'https://umerzia.github.io/Portfolio/',
+      source: 'https://github.com/UmerZia/Portfolio',
     },
     {
       id: 2,
@@ -55,10 +55,10 @@ const projects = {
       desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      tech: ['HTML', 'BootStrap', 'Ruby'],
+      tech: ['JS', 'React', 'TypeScript'],
       img: '../img/cards/popUp-img.png',
-      live: '#',
-      source: '#',
+      live: 'https://umerzia.github.io/Portfolio/',
+      source: 'https://github.com/UmerZia/Portfolio',
     },
     {
       id: 3,
@@ -66,10 +66,10 @@ const projects = {
       desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      tech: ['HTML', 'BootStrap', 'Ruby'],
+      tech: ['Git', 'GitHub', 'GitPage'],
       img: '../img/cards/popUp-img.png',
-      live: '#',
-      source: '#',
+      live: 'https://umerzia.github.io/Portfolio/',
+      source: 'https://github.com/UmerZia/Portfolio',
     },
     {
       id: 4,
@@ -77,10 +77,10 @@ const projects = {
       desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      tech: ['HTML', 'BootStrap', 'Ruby'],
+      tech: ['TailWind', 'BootStrap', 'RubyOnRails'],
       img: '../img/cards/popUp-img.png',
-      live: '#',
-      source: '#',
+      live: 'https://umerzia.github.io/Portfolio/',
+      source: 'https://github.com/UmerZia/Portfolio',
     },
     {
       id: 5,
@@ -88,10 +88,10 @@ const projects = {
       desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      tech: ['HTML', 'BootStrap', 'Ruby'],
+      tech: ['HTML5', 'BS', 'ROR'],
       img: '../img/cards/popUp-img.png',
-      live: '#',
-      source: '#',
+      live: 'https://umerzia.github.io/Portfolio/',
+      source: 'https://github.com/UmerZia/Portfolio',
     },
     {
       id: 6,
@@ -99,10 +99,10 @@ const projects = {
       desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       popUp_desc:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-      tech: ['HTML', 'BootStrap', 'Ruby'],
+      tech: ['C++', 'Java', 'C#'],
       img: '../img/cards/popUp-img.png',
-      live: '#',
-      source: '#',
+      live: 'https://umerzia.github.io/Portfolio/',
+      source: 'https://github.com/UmerZia/Portfolio',
     },
   ],
 };
@@ -184,8 +184,8 @@ const seeProjectBtn = document.getElementsByClassName('subCard--btn');
       <div class="popup__body--content">
         <p>${projects.subCards[index].popUp_desc}</p>
         <div class="popup__body__btn">
-          <button class="btn popup__body--btn"><a href="${projects.subCards[index].live}">See Live</a><img src="../img/icons/icon-see-live.svg" alt="Live"></button>
-          <button class="btn popup__body--btn"><a href="${projects.subCards[index].live}">See Source</a></Source><img src="../img/socials/github-white.svg" alt="GitHub"></button>
+          <button class="btn popup__body--btn"><a href="${projects.subCards[index].live}" target="_blank">See Live</a><img src="../img/icons/icon-see-live.svg" alt="Live"></button>
+          <button class="btn popup__body--btn"><a href="${projects.subCards[index].source}" target="_blank">See Source</a></Source><img src="../img/socials/github-white.svg" alt="GitHub"></button>
         </div>
       </div>
     </div>
