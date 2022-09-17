@@ -209,3 +209,12 @@ document.getElementsByClassName('mainCard--btn')[0].addEventListener('click', ()
     document.getElementsByClassName('popup__section')[0].remove();
   });
 });
+
+//Email Validation
+const submit = document.getElementById('form');
+submit.addEventListener('submit', (e) => {
+  const email = document.getElementById('email').value;
+  const lowerCaseEmail = document.getElementById('email').value.toLowerCase();
+  const error = document.getElementById('error-msg');
+  let msg = document.createTextNode("Email should be in lower-case.");
+});
