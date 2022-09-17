@@ -30,6 +30,10 @@
 
 > Add aria roles to non semantic tags
 
+> Add dynamic modal in work section
+
+> Created whole card section dynamically
+
 ## Language Used
 
 - HTML
