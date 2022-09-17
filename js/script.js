@@ -248,3 +248,17 @@ userMsg.addEventListener('input', () => {
   formData.userMsg = userMsg.value;
   localStorage.setItem('formData', JSON.stringify(formData));
 });
+
+// Render the data from local storage
+window.addEventListener('DOMContentLoaded', () => {
+  formData = JSON.parse(localStorage.getItem('formData') || '{}');
+  if (formData.email) {
+    document.getElementById('email').value = formData.email;
+  }
+  if (formData.username) {
+    document.getElementById('name').value = formData.username;
+  }
+  if (formData.userMsg) {
+    document.getElementById('msg').value = formData.userMsg;
+  }
+});
