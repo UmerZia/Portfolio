@@ -2,6 +2,8 @@
 
 # Portfolio
 
+This beautifully minimal and easy to navigate portfolio is a feast for the eyes. A combination of minimal design together with vibrant colors creates an atmosphere of creativity, and engages visitors to spend more time on the site.
+
 ### This project is a task by Microverse.
 
 #### Milestone completed: 
